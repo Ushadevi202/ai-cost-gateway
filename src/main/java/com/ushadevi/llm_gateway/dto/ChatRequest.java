@@ -4,6 +4,6 @@ import jakarta.validation.constraints.NotBlank;
 
 public record ChatRequest(
         @NotBlank String prompt,
-        String model
-
+        String model,
+        String provider
 ) {}
